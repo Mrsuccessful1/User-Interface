@@ -66,20 +66,20 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .container{
 	max-width: 1000px;
+	width: 100%;
+	margin: 40px;
 }
 
-p {
-	width: 45px 2px;
-
+nav a {
+	margin: 40px;
+	
 }
 
 nav {
 	margin: 20px 20px;
-	text-align: 20px;
 	color: grey;
 	display: inline;
 	padding: 20px;
-	width: 100%;
 }
 
 .main {
@@ -94,11 +94,16 @@ nav {
 	margin-bottom: 5px;
 	display: inline-block;
 	width: 45%;
+	vertical-align: top;
 }
 
 .btn {
 	display: block;
 	margin: 0 auto;
+	width: 200px;
+	height: 40px;
+	background-color: white;
+	color: black;
 }
 
 .right {
@@ -107,7 +112,22 @@ nav {
 	margin: 5px;
 }
 
-.top-section {
-	display: inline-block;
-	width: 45px 2px;
+.top-section div{
+	margin: 40px 0;
+	text-align: left;
+	display: block;
+	width: 45%;
+	height:100px;
+}
+
+.middle-img {
+	align-self: auto;
+}
+
+.bottom-section {
+	margin: 40px 0;
+	text-align: left;
+	display: block;
+	width: 30%;
+	height:100px;
 }
