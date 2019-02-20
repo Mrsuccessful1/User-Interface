@@ -113,6 +113,7 @@ header nav a:last-child{
 	width: 45%;
 	height: auto;
 	
+	
 }
 
 .top-content div.left{
@@ -122,6 +123,7 @@ header nav a:last-child{
 
 .right img{
 	width: 100%;
+	margin-left: 60px;
 }	
 
 .btn{
@@ -137,6 +139,10 @@ header nav a:last-child{
 	display: inline-block;
 }
 
+.about{
+	margin-left: 60px;
+}
+
 .bottom-content{
 	border-bottom: 1px solid black;
 }
@@ -146,6 +152,14 @@ header nav a:last-child{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	display: inline-block;
+}
+
+.product {
+	margin-left: 40px;
+}
+
+.vision{
+	margin-left: 40px;
 }
 
 .copyright {
